@@ -1,0 +1,36 @@
+{
+    "madar":[
+    {
+        "id":1,
+        "madar":"Rózsás kakadu",
+        "ar":250000,
+        "elettartam":40,
+        "db":2,
+        "kep":"/kepek/rozsas.jpg"
+    },
+    {
+        "id":2,
+        "madar":"Sárgabóbitás kakadu",
+        "ar":200000,
+        "elettartam":40,
+        "db":3,
+        "kep":"/kepek/kakadu.jpg"
+    },
+    {
+        "id":3,
+        "madar":"Nimfapapagáj",
+        "ar":20000,
+        "elettartam":20,
+        "db":5,
+        "kep":"/kepek/nimfa.jpg"
+    },
+    {
+        "id":4,
+        "madar":"Jákópapagáj",
+        "ar":320000,
+        "elettartam":50,
+        "db":4,
+        "kep":"/kepek/jako.jpg"
+    }
+    ]
+}
