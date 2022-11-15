@@ -39,12 +39,17 @@ li{
     height: 100%;
 }
 @media screen and (max-width: 750px){
+    .divMadarak{
+        display: grid;
+        grid-column: auto;
+    }
     .divMadar{
         width: 10%;
         height: 100%;
     }
     .divMadar p{
-        font-size: 50%;
+        font-size: 70%;
+        
     }
   }
    
