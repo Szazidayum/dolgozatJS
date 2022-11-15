@@ -20,6 +20,9 @@ nav li a{
     width: 30%;
     height: 100%;
 }
+.divMadar p{
+    font-size: 90%;
+}
 .madarAdatok{
     width: 100%;
     height: 150px;
@@ -39,6 +42,9 @@ li{
     .divMadar{
         width: 10%;
         height: 100%;
+    }
+    .divMadar p{
+        font-size: 50%;
     }
   }
    
