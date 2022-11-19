@@ -6,12 +6,12 @@ class MadarView{
         szuloElem.append(`
         <div class="divMadar">
         <div class="kepe"><img src="${elem.kep}"></div>
-        <div class="w3-panel w3-center"><p>Madár: ${elem.madar}</p></div>
+        <div class="w3-panel w3-center"><h4>${elem.madar}</h4></div>
         <div class="ara"><p>Ára: ${elem.ar}</p></div>
         <div class="elet"><p>Élettartama: ${elem.elettartam}</p></div>
         <div class="darab"><p>Elérhetőség: ${elem.db}</p></div>
         <div class="szama"><p>ID:${elem.id}</p></div>
-        <div><button id="K${elem.id}">csökken</button></div>
+        <div><button id="K${elem.id}">kosárba</button></div>
         </div>
         `);
         this.kivonDb = $(`#K${elem.id}`);

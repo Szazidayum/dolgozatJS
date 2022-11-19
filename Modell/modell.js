@@ -1,10 +1,6 @@
 class MadarModell{
     #madarakTomb = [];
     constructor() {
-        console.log("model");
-    }
-    dbModosit(adat){
-        console.log("model",adat);
     }
     adatBe(vegpont, myCallBack){
         fetch(vegpont, {

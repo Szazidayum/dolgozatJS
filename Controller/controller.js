@@ -6,12 +6,8 @@ class MadarController{
     constructor() {
         const madarModell = new MadarModell();
         madarModell.adatBe("../adat.json", this.madarAdatok);
-        
-        $("#fooldal").on("click", ()=>{
+        $(window).on("dbValtozik",()=>{
             this.madarAdatok(madarModell.getTomb());
-        })
-        $(window).on("dbValtozik",(event)=>{
-            madarModell.dbModosit(event.detail);
         });
     }
 
