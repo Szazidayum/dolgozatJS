@@ -90,16 +90,23 @@ nav li a{
 }
 
 /*----------------------------MEDIA SCREEN----------------------------*/
-@media screen and (max-width: 750px){
+@media screen and (max-width: 980px){
     .divMadarak{
         display: grid;
         grid-column: auto;
     }
     .divMadar{
-        width: 30%;
+        width: 50%;
         height: 100%;
     }
-    
+    .divMadar p {
+        font-size: 90%;
+        text-align: center;
+        
+    }
+    .divMadar button{
+        margin-left: 210px;
+    }
   }
 
 
